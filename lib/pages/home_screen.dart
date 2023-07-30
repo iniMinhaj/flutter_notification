@@ -5,12 +5,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        title: const Text("Push Notifications"),
+        title: const Text("Home Notifications"),
       ),
       body: const Center(
-        child:  Text("Home page"),
+        child: Text("Home page"),
       ),
     );
   }
